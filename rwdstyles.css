@@ -1,0 +1,56 @@
+.header {
+    text-align: center;
+    border: 10px solid black;
+    padding: 1rem;
+    background-color: rgb(124, 124, 124);
+    font-size:  5rem;
+    font-family: "Joan", sans-serif;
+    color:rgb(72, 16, 125);
+    
+    
+}
+body {
+    background-color: rgb(20, 20, 22);
+    color:rgb(139, 23, 105);
+    font-family: "Crimson Text", serif;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap:50px;
+}
+
+
+.engineering {
+    grid-row: 3 / 4;
+}
+.quicklinks{
+    position:sticky;
+    top: 100px;
+
+}
+
+img{
+    
+    position:relative;
+    right: 5px;
+    grid-column: 2 / 4;
+    grid-row:2/3;
+    width:500px;
+    height:250px;
+
+}
+#footer {
+    
+    padding: 10px 10px 0px 10px;
+    grid-row: 4/5;
+    grid-column:1/4;
+    width: 100%;
+    /* Height of the footer*/
+    height: 40px;
+    background: grey;
+    color:rgb(72, 16, 125);
+    margin-top:2em;
+    
+}
